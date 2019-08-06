@@ -19,6 +19,22 @@ h3 {
   bottom: 2.5rem;
 }
 
+h4 {
+  font-size: 24px;
+  position: relative;
+  top: 1rem;
+}
+
+#introhead {
+  font-size: 22px;
+  color: #2C9AB7
+}
+
+a {
+  text-decoration: none;
+  color: #2C9AB7;
+}
+
 nav {
   background-color: #EBEBEB;
   height: 3rem;
@@ -33,22 +49,49 @@ nav p {
   transform: translate(0, -50%)
 }
 
-nav p a{
+nav p a {
   color: black;
   font-size: 18px;
   font-weight: 700;
-  text-decoration: none;
   margin-left: 0.5em;
   margin-right: 0.5em;
 }
 
-nav p a:first-child{
+nav p a:first-child {
   margin-left: 0;
 }
 
-.top{
+.top {
   background-color: #2C9AB7;
   height: 16rem;
   color: white;
   padding: 4rem 15% 2.5rem;
+}
+
+.intro {
+  float: left;
+  width: 45%;
+  padding: 2.5rem 5% 0.5rem 15%;
+  line-height: 1.6;
+}
+
+.quote {
+  font-size: 1.5rem;
+  color: #5BBCD6;
+}
+
+.story {
+  float: left;
+  width: 45%;
+  padding: 0.5rem 5% 2.5rem 15%;
+  line-height: 1.6;
+}
+
+.sidebar {
+  padding: 2.5rem 15%;
+  line-height: 1.6;
+}
+
+footer {
+  clear: left;
 }
