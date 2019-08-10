@@ -12,7 +12,7 @@ h1 {
 }
 
 h3 {
-  font-size: 2em;
+  font-size: 2.10em;
   font-style: italic;
   font-weight: 250;
   position: relative;
@@ -20,13 +20,11 @@ h3 {
 }
 
 h4 {
-  font-size: 24px;
-  position: relative;
-  top: 1rem;
+  font-size: 22px;
 }
 
 #introhead {
-  font-size: 22px;
+  font-size: 21px;
   color: #2C9AB7
 }
 
@@ -51,7 +49,7 @@ nav p {
 
 nav p a {
   color: black;
-  font-size: 18px;
+  font-size: 19px;
   font-weight: 700;
   margin-left: 0.5em;
   margin-right: 0.5em;
@@ -65,19 +63,21 @@ nav p a:first-child {
   background-color: #2C9AB7;
   height: 16rem;
   color: white;
-  padding: 4rem 15% 2.5rem;
+  padding: 2.5rem 15% 2rem;
 }
 
 .intro {
   float: left;
   width: 45%;
-  padding: 2.5rem 5% 0.5rem 15%;
+  padding: 1.5rem 5% 1.25rem 15%;
   line-height: 1.6;
 }
 
 .quote {
   font-size: 1.5rem;
   color: #5BBCD6;
+  position: relative;
+  top: 2.5rem;
 }
 
 .story {
@@ -88,8 +88,18 @@ nav p a:first-child {
 }
 
 .sidebar {
-  padding: 2.5rem 15%;
+  padding: 1.5rem 15%;
   line-height: 1.6;
+}
+
+.sidebar h4 {
+  position: relative;
+  top: 1rem;
+}
+
+.story h4 {
+  position: relative;
+  top: 1.5rem;
 }
 
 footer {
